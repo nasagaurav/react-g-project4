@@ -4,20 +4,8 @@ const url =
   'https://my-project-g1-2f9a0-default-rtdb.firebaseio.com/users.json';
 
 export default function App() {
-  const handleClick = () => {
-    const data = {
-      name: 'sabha sanghwan',
-      email: 'sanghwan_sabha@gmail.com',
-      gender: 'female',
-    };
 
-    axios
-      .post(url, data)
-      .then((res) => res.data)
-      .then((d) => console.log('after adding', d))
-      .catch((e) => console.log('after err', e))
-      .finally(() => console.log('finally'));
-  };
+
 
   return (
     <div>
@@ -27,7 +15,7 @@ export default function App() {
         dependencies so thet it will install axios package..
       </p>
 
-      <button onClick={handleClick}>post request</button>
+      <button>post request</button>
     </div>
   );
 }
