@@ -5,12 +5,11 @@ const url =
 
 export default function App() {
   const handleClick = () => {
-    const data={
-      name:"demo1",
-      email:demao@gmail.com,
-      gender:"male",
-
-    }
+    const data = {
+      name: 'sabha sanghwan',
+      email: 'sanghwan_sabha@gmail.com',
+      gender: 'female',
+    };
 
     axios
       .post(url, data)
