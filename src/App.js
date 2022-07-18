@@ -24,7 +24,7 @@ export default function App() {
       <h1>stalkblitz</h1>
       <p>
         get data from firebase ,copy url prefix users/json.write axios in
-        dependencies so thet it will install axios package
+        dependencies so thet it will install axios package..
       </p>
 
       <button onClick={handleClick}>post request</button>
